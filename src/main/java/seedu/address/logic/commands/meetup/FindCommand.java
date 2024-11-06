@@ -18,7 +18,8 @@ public class FindCommand extends Command {
 
     public static final String COMMAND_WORD = "find";
 
-    public static final String MESSAGE_USAGE = COMMAND_WORD + ": Finds all meet-up whose meet-up subject contain any of "
+    public static final String MESSAGE_USAGE = COMMAND_WORD
+            + ": Finds all meet-up whose meet-up subject contain any of "
             + "the specified keywords (case-insensitive) and displays them as a list with index numbers.\n"
             + "Parameters: s/KEYWORD [MORE_KEYWORDS]...\n"
             + "Example: " + COMMAND_WORD + " "
