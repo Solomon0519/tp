@@ -1,0 +1,11 @@
+diff a/src/main/java/seedu/address/logic/commands/meetup/FindCommand.java b/src/main/java/seedu/address/logic/commands/meetup/FindCommand.java	(rejected hunks)
+@@ -21,7 +21,8 @@
+     public static final String MESSAGE_USAGE = COMMAND_WORD + ": Finds all meet-up whose meet-up names contain any of "
+             + "the specified keywords (case-insensitive) and displays them as a list with index numbers.\n"
+             + "Parameters: KEYWORD [MORE_KEYWORDS]...\n"
+-            + "Example: " + COMMAND_WORD + " john ron tom ";
++            + "Example: " + COMMAND_WORD + " "
++            + PREFIX_NAME + "KEYWORD ";
+ 
+     private final MeetUpContainsKeywordsPredicate predicate;
+ 
